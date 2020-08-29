@@ -6,7 +6,7 @@
             <div class="card-body">
                 <h5 class="card-title">
                     <template v-if="post.user.avatar">
-                        <img :src="post.user.avatar.url" style="height:50px; width:50px; object-fit:cover; object-position:center;" alt="user-avatar" class="rounded-circle img-fluid">
+                        <img :src="post.user.avatar.formats.small.url" style="height:50px; width:50px; object-fit:cover; object-position:center;" alt="user-avatar" class="rounded-circle img-fluid">
                     </template>
                     <template v-else>
                         <img src="https://via.placeholder.com/300" style="height:50px; width:50px; object-fit:cover; object-position:center;" alt="no-user-avatar" class="rounded-circle img-fluid">
