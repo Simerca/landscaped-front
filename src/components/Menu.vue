@@ -6,10 +6,10 @@
         </router-link>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-sm btn-outline-dark"><unicon name="apple"/> Télécharger sur iOs</button></a>
+                <a class="nav-link active"  aria-current="page" href="https://itunes.apple.com/app/id1522071307" target="_blank"><button class="btn btn-sm btn-outline-dark"><unicon name="apple"/> Télécharger sur iOs</button></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><button class="btn btn-sm btn-outline-success"><unicon name="android"/> Télécharger sur Android</button></a>
+                <a class="nav-link" href="https://play.google.com/store/apps/details?id=landscaped.ayrton.com" target="_blank"><button class="btn btn-sm btn-outline-success"><unicon name="android"/> Télécharger sur Android</button></a>
             </li>
         </ul>
     </div>
