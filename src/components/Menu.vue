@@ -2,7 +2,7 @@
 <nav class="navbar navbar-light bg-white">
     <div class="container">
         <router-link tag="a" class="navbar-brand" to="/">
-            <img src="../assets/logo.png" width="80" height="80" alt="" loading="lazy"> Landscaped
+            <img src="../assets/logo.png" width="80" height="80" alt="logo" loading="lazy"> Landscaped
         </router-link>
         <ul class="nav justify-content-end">
             <li class="nav-item">
