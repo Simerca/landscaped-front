@@ -1,9 +1,9 @@
 <template>
 <nav class="navbar navbar-light bg-white">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <router-link tag="a" class="navbar-brand" to="/">
             <img src="../assets/logo.png" width="80" height="80" alt="" loading="lazy"> Landscaped
-        </a>
+        </router-link>
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-sm btn-outline-dark"><unicon name="apple"/> Télécharger sur iOs</button></a>

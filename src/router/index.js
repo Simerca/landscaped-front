@@ -17,7 +17,10 @@ Vue.use(VueRouter)
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue')
+    component: () => import('../views/About.vue'),
+    children:[
+      {path:'', component: () => import('../components/CGV.vue')}
+    ]
   }
 ]
 
